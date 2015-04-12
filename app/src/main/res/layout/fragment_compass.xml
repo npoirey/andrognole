@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:id="@+id/layoutViewCompass"
+android:gravity="center_vertical|center"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+    style="f">
+
+<ImageView
+    android:id="@+id/imageViewCompass"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scaleType="center"
+    android:layout_gravity="center|center_horizontal"
+    android:src="@drawable/compass" />
+
+    <TextView
+        android:id="@+id/remainingDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal"
+        android:textColor="#ffffffff"
+        android:textSize="40dp"
+
+        android:textIsSelectable="true" />
+</FrameLayout>

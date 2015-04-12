@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Andrognole</string>
+    <string name="title_activity_maps_activity_example">Andrognole</string>
+    <string name="hello_world">Bonjour tout le monde !</string>
+    <string name="action_settings">Réglages</string>
+
+    <!-- Menu settings -->
+    <string name="main_category">Réglages</string>
+    <string name="main_service">Services</string>
+
+    <!-- NFC settings -->
+    <string name="nfc_title">NFC</string>
+    <string name="nfc_category">Utiliser le NFC</string>
+    <string name="nfc_summary">"Sauvegarder ma position lors d'un scan d'un tag NFC"</string>
+    <string name="nfc_init">Initialisation NFC</string>
+    <string name="nfc_summary_init">Mettre à jour la carte NFC pour sauvergarder la position</string>
+    <string name="nfc_tag_string">andrognole://register</string>
+    <string name="nfc_tag_directive">Met ton téléphone devant le tag et appuis sur le bouton</string>
+    <string name="nfc_tag_button">Ecrire sur le tag</string>
+    <string name="nfc_tag_ready">Tag détecté, prêt à écrire</string>
+    <string name="nfc_tag_error">"Une erreur s'est produite pendant l'écriture"</string>
+    <string name="nfc_tag_wrote">Ecriture réussite sur le tag</string>
+    <string name="nfc_dialog_ready_title">Prêt à écrire sur le tag NFC</string>
+    <string name="nfc_dialog_ready_content">"Scannes le tag avec ton téléphone pour pouvoir l'utiliser avec cette application"</string>
+    <string name="nfc_dialog_ready_cancel">Annuler</string>
+
+    <!-- Audio settings -->
+    <string name="audio_title">Jack</string>
+    <string name="audio_category">Utiliser le jack</string>
+    <string name="audio_summary">"Sauvegarder ma position lors d'un débranchement du jack"</string>
+    <string name="audio_ask">Demander confirmation</string>
+    <string name="audio_summary_ask">Demander confirmation quand tu déconnectes le jack</string>
+
+    <!-- Data settings -->
+    <string name="data_title">Données</string>
+    <string name="data_reset_title">Réinitialiser les données</string>
+    <string name="data_reset_summary">Supprimer toutes les positions de parking</string>
+    <string name="data_reset_toast_success">Données réinitialisé avec succés</string>
+
+    <!-- notifications -->
+    <string name="notification_title">Nouveau parking détecté</string>
+    <string name="notification_text">Appuyez pour enregistrer la position</string>
+    <string name="notification_text_validation">Valider</string>
+    <string name="notification_text_dismiss">Annuler</string>
+    <string name="toast_position_stored">Nouvelle position de parking enregistré</string>
+    <string name="button_save_position">Sauvegarder ma position</string>
+
+    <string name="number_decimal_separator">.</string>
+    <string name="compass">Boussole</string>
+    <string name="parking_info_no_parking">Pas de position enregistrée.</string>
+    <string name="parking_info_date_separator">" à "</string>
+    <string name="parking_info_day_today">"Aujourd'hui"</string>
+    <plurals
+        name="parking_info_day">
+        <item quantity="one">Hier</item>
+        <item quantity="other">Il y a %d jours</item>
+    </plurals>
+    <string name="audio_summary_vibrate">Vibrer quand le jack est déconnecté</string>
+    <string name="audio_vibrate">Vibrer</string>
+    <string name="general_accuracy_summary">Précision de la détection en mètres</string>
+    <string name="general_accuracy_title">Précision souhaitée</string>
+    <string name="general_delay_summary">Au bout de ce délai la position est enregistrée peu importe la précision</string>
+    <string name="general_delay_title">Délai maximum de détection</string>
+    <string name="general_title">Général</string>
+    <string name="marker_text">Ma voiture est ici !</string>
+    <string name="marker_title">Parking</string>
+    <string name="menu_map_type">Changer le type de carte</string>
+    <string name="menu_map_auto_move_camera">Caméra automatique</string>
+</resources>

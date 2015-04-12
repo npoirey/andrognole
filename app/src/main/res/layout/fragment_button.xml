@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/compass"
+        android:id="@+id/switch_mode"
+        android:checked="false"
+        android:onClick="changeMode"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_save_position"
+        android:id="@+id/save_position_button"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="3"
+        android:onClick="savePosition"/>
+
+<!--    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:id="@+id/button"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:onClick="test"/>-->
+</LinearLayout>

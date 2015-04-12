@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/menu_map_type"
+        android:title="@string/menu_map_type" >
+    </item>
+    <item android:id="@+id/menu_map_auto_move_camera"
+        android:title="@string/menu_map_auto_move_camera"
+        android:checkable="true"
+        android:checked="true">
+    </item>
+</menu>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Andrognole</string>
+    <string name="title_activity_maps_activity_example">Andrognole</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Menu settings -->
+    <string name="main_category">Settings</string>
+    <string name="main_service">Services</string>
+
+    <!-- NFC settings -->
+    <string name="nfc_title">NFC</string>
+    <string name="nfc_category">Use NFC</string>
+    <string name="nfc_summary">Save position when scanning NFC tag</string>
+    <string name="nfc_init">Init NFC</string>
+    <string name="nfc_summary_init">Update NFC card to save position</string>
+    <string name="nfc_tag_string">andrognole://register</string>
+    <string name="nfc_tag_directive">Put your phone on the tag and press the button</string>
+    <string name="nfc_tag_button">Write on the tag</string>
+    <string name="nfc_tag_ready">Tag detected, ready to write</string>
+    <string name="nfc_tag_error">An error occurred while writing</string>
+    <string name="nfc_tag_wrote">Successfully wrote on the tag</string>
+    <string name="nfc_dialog_ready_title">Ready to write on NFC tag</string>
+    <string name="nfc_dialog_ready_content">Scan the tag with your phone to make it ready to use with this app</string>
+    <string name="nfc_dialog_ready_cancel">Cancel</string>
+
+    <!-- Audio settings -->
+    <string name="audio_title">Jack</string>
+    <string name="audio_category">Use jack</string>
+    <string name="audio_summary">Save position when unplugging jack</string>
+    <string name="audio_ask">Ask for confirmation</string>
+    <string name="audio_vibrate">Vibrate</string>
+    <string name="audio_summary_vibrate">Vibrate when you disconnect the jack</string>
+
+    <!-- Data settings -->
+    <string name="data_title">Data</string>
+    <string name="data_reset_title">Reset data</string>
+    <string name="data_reset_summary">Remove all parkings</string>
+    <string name="data_reset_toast_success">Data reset successful</string>
+
+    <!-- notifications -->
+    <string name="notification_title">New parking detected</string>
+    <string name="notification_text">Press to register the position</string>
+    <string name="notification_text_validation">Validate</string>
+    <string name="notification_text_dismiss">Dismiss</string>
+    <string name="toast_position_stored">New parking location recorded</string>
+    <string name="button_save_position">Save my position</string>
+
+    <string name="number_decimal_separator">.</string>
+    <string name="compass">Compass</string>
+    <string name="parking_info_no_parking">No position has been recorded</string>
+    <string name="parking_info_day_today">Today</string>
+    <plurals
+        name="parking_info_day">
+        <item quantity="one">Yesterday</item>
+        <item quantity="other">%d days ago</item>
+    </plurals>
+    <string name="parking_info_date_separator">" at "</string>
+    <string name="parking_info_date_hour_format" translatable="false">HH:mm</string>
+    <string name="audio_summary_ask">Vibrate when you disconnect the jack</string>
+    <string name="general_title">General settings</string>
+    <string name="general_delay_summary">After this delay, the position is saved no matter the desired accuracy</string>
+    <string name="general_delay_title">Maximum detection delay</string>
+    <string name="general_accuracy_summary">Precision in meters desired (may take longer)</string>
+    <string name="general_accuracy_title">Desired accuracy</string>
+
+    <string name="marker_title">Parking</string>
+    <string name="marker_text">My car is here !</string>
+
+    <string name="menu_map_type">Change map type</string>
+    <string name="menu_map_auto_move_camera">Camera auto</string>
+</resources>

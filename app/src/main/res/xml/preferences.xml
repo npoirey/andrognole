@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/general_title">
+        <EditTextPreference
+            android:key="@string/preferences_general_max_delay"
+            android:summary="@string/general_delay_summary"
+            android:title="@string/general_delay_title"
+            android:inputType="number"
+            android:defaultValue="10"
+            />
+        <EditTextPreference
+            android:key="@string/preferences_general_desired_accuracy"
+            android:summary="@string/general_accuracy_summary"
+            android:title="@string/general_accuracy_title"
+            android:inputType="number"
+            android:defaultValue="10"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/nfc_title">
+        <SwitchPreference
+            android:key="@string/preferences_nfc_active"
+            android:summary="@string/nfc_summary"
+            android:title="@string/nfc_category"
+            android:defaultValue="true"/>
+        <Preference
+            android:key="@string/preferences_nfc_setup"
+            android:dependency="@string/preferences_nfc_active"
+            android:summary="@string/nfc_summary_init"
+            android:title="@string/nfc_init" />
+<!--            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="bobbarteam.andrognole"
+                android:targetClass="bobbarteam.andrognole.configuration.WriteNFCActivity"
+                />-->
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/audio_title">
+        <SwitchPreference
+            android:key="@string/preferences_jack_active"
+            android:summary="@string/audio_summary"
+            android:title="@string/audio_category"
+            android:defaultValue="false"/>
+        <CheckBoxPreference
+            android:key="@string/preferences_jack_ask_confirmation"
+            android:dependency="@string/preferences_jack_active"
+            android:summary="@string/audio_summary_ask"
+            android:title="@string/audio_ask"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="@string/preferences_jack_vibrate_notification"
+            android:dependency="@string/preferences_jack_ask_confirmation"
+            android:summary="@string/audio_summary_vibrate"
+            android:title="@string/audio_vibrate"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/data_title">
+
+        <Preference
+            android:key="@string/preferences_reset_database"
+            android:summary="@string/data_reset_summary"
+            android:title="@string/data_reset_title" />
+    </PreferenceCategory>
+</PreferenceScreen>

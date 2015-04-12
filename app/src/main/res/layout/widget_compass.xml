@@ -1,0 +1,8 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:background="@drawable/compass"
+    android:id="@+id/widget_compass">
+
+</LinearLayout>

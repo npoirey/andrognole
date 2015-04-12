@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="preferences_nfc_active" translatable="false">preferences_nfc_active</string>
+    <string name="preferences_nfc_setup" translatable="false">preferences_nfc_setup</string>
+    <string name="preferences_jack_active" translatable="false">preferences_jack_active</string>
+    <string name="preferences_jack_ask_confirmation" translatable="false">preferences_jack_ask_confirmation</string>
+    <string name="preferences_jack_vibrate_notification" translatable="false">preferences_jack_vibrate_notification</string>
+    <string name="preferences_reset_database" translatable="false">preferences_reset_database</string>
+    <string name="preferences_general_max_delay" translatable="false">preferences_general_max_delay</string>
+    <string name="preferences_general_desired_accuracy" translatable="false">preferences_general_desired_accuracy</string>
+    <string name="preferences_map_type" translatable="false">preferences_map_type</string>
+    <string name="preferences_map_animate" translatable="false">preferences_map_animate</string>
+
+
+    <integer name="default_zoom">18</integer>
+    <integer name="min_bound_distance">20</integer>
+</resources>
